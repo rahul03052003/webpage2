@@ -1,0 +1,44 @@
+/* Reset some default styles for cross-browser consistency */
+body, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Apply basic styling to the header and navigation */
+header {
+    background-color: rgb(70, 70, 194);
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Style sections with spacing and alignment */
+section {
+    margin: 40px;
+    text-align: center;
+}
+
+/* Style the headings */
+h1, h2 {
+    color: #333;
+}
+
+/* Add a background color to even sections */
+section:nth-child(even) {
+    background-color: #f4f4f4;
+}
